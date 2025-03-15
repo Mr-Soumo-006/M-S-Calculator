@@ -114,25 +114,25 @@
         let ans = document.getElementById("ans");
 
         function fun_add() {
-            let result = parsefloat(num1.value)+parsefloat(num2.value);
+            let result = parseint(num1.value) + parseint(num2.value);
             ans.innerText = result;
         }
         add.onclick = fun_add;
 
         function fun_subtract() {
-            let result = parsefloat(num1.value)-parsefloat(num2.value);
+            let result = parseint(num1.value)-parseint(num2.value);
             ans.innerText = result;
         }
         subtract.onclick = fun_subtract;
 
         function fun_into() {
-            let result = parsefloat(num1.value)*parsefloat(num2.value);
+            let result = parseint(num1.value) * parseint(num2.value);
             ans.innerText = result;
         }
         into.onclick = fun_into;
 
         function fun_divide() {
-            let result = parsefloat(num1.value)/parsefloat(num2.value);
+            let result = parseint(num1.value)/ parseint(num2.value);
             ans.innerText = result;
         }
         divide.onclick = fun_divide;
